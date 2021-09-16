@@ -1,0 +1,13 @@
+#!/kwinters3/bin/perl
+
+print STDOUT ("Hello! Please give me a noun, make it interesting!\n");
+$foo =<STDIN>; 
+chomp ($foo);
+print ("you gave $foo as an answer/n");
+#2nd input
+print ("Great! Can I have a verb this time?\n");
+$baz =<STDIN>;
+chomp ($baz);
+print ("you gave $baz as an answer\n");
+
+
