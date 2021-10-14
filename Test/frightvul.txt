@@ -1,0 +1,7 @@
+#!/usr/bin/perl
+
+Pumpkins
+Ghost
+Scary 
+Spiders
+Mummy
