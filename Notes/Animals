@@ -1,0 +1,12 @@
+
+
+@animals = "animal.pl";
+
+open(FOO, '<', 'Animals.txt') || die ("Try again!$\n");
+
+@animals =<FOO>;
+
+print("ANIMALS\n");
+print "@animals\n";
+
+

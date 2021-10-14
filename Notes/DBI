@@ -1,0 +1,7 @@
+#!/usr/bin/perl
+
+use warnings;
+use Cwd;
+
+my $vpsconnect = DBI ->connect("DBI:mysql:foo",'student',''); 
+die || ("Failed to connect to database."); 
