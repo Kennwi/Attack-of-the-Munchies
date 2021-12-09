@@ -1,4 +1,3 @@
-
 //VARIABLES
 // 0: Initial Screen
 // 1: Game Screen
@@ -22,7 +21,6 @@ float ellY = 0;
 PImage b;
 PImage m;
 PImage t;
-//boolean left, right, up, down;
 //player g;
 String s;
 
@@ -36,10 +34,6 @@ void setup() {
   size(1000, 664);
   //g = new player();
   m = loadImage("Munchie");
-  //left = false;
-  //right = false;
-  //up = false;
-  //down = false;
   b = loadImage("tabletop.jpg");
 }
 
