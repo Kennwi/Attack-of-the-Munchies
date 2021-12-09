@@ -113,7 +113,7 @@ if (keyPressed == true && key == CODED && keyCode == RIGHT) {
    moveDown = true;
    countP = countP +1;
   } 
- if(countP == 10) {
+ if(countP == 15) {
   gameScreen = 2;
  } 
 }
